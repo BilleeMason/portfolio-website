@@ -1,0 +1,44 @@
+Funny how the font changes the way your name looks I had a double take on if I spelt my name correctly when choosing a font.
+
+Fonts are generally classified into six categories
+San Serif
+Serif
+Slab Serif
+Script
+Mono
+Hand
+
+Weight
+Width
+x-Height
+Contrast
+Standard or Caps
+Default Figure Style
+
+They can further be classified
+Calligraphic
+Clean
+Brush
+Geometric
+funky
+Art Deco
+Friendly
+Rounded
+Cursive
+Luxury
+Rough
+Fun
+Futuristic
+Marker
+Comic
+Westerm
+Blackletter
+Wedding
+School
+College
+Typewritter
+Shaded
+Stencil
+inline
+Horror
+Ornaments
