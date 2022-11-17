@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="the_aqua_gym_css/style_the_aqua_gym.css">
+<style>
+body {
+    background-image: none;
+    background-color: rgba(223,234,230,1.00)!important;
+}
+* {
+    box-sizing: border-box;
+}
+.space {
+    width: 100px;
+    display: inline-block;
+}
+.space2 {
+    height: 10px;
+    display: inline-block;
+}
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.side {
+    flex: 30%;
+    background-color: none;
+    padding: 20px;
+}
+.main {
+    flex: 70%;
+    background-color: none;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+.row .flex-container {
+    flex-direction: column;
+}
+}
+</style>
+<title>Join the Aqua Gym</title>
+</head>
+<header>
+  <div class="flex-container">
+    <ul>
+      <li><img src="the_aqua_gym_img/logo.png" alt="logo" width="75%"></li>
+      <li class="padding"><a href="the_aqua_gym.html">HOME</a></li>
+      <li class="padding"><a href="the_aqua_gym_about.html">ABOUT</a></li>
+      <li class="padding"><a href="services.html">SERVICES</a></li>
+      <li class="padding"><a href="programs.html">PROGRAMS</a></li>
+      <li class="padding-image"><a href="mailto:hi@billeemason.com"><img src="the_aqua_gym_img/emailme.png" alt="email me" width="50%"></a></li>
+    </ul>
+  </div>
+</header>
+<body>
+<div class="row">
+  <div class="side">
+    <h2>Get Fit Today</h2>
+    <h3>We are offering one week's trial for all our classes</h3>
+    <p>Please complete the form below to register for your membership. You will immediately receive a confirmation email from us; on the email, there will be a link to click to confirm that you do want to join.</p>
+    <p>Once you have clicked on the page link, the page will automatically go to "The Aqua Gym's" confirmation page, where you will pay for your membership.</p>
+    <p>Upon payment, we provide you with a temporary membership number to use right away while you wait for your card to arrive in the post.</p>
+    <h3>How to complete the joining form</h3>
+    <p>Fields with a red dashed borders and marked with a red astrix must be completed. &nbsp;
+      <p2>*</p2>
+      &nbsp;
+      <p3>&nbsp;red dashed border&nbsp;</p3>
+    </p>
+    <p>Fields with a green dashed borders&nbsp;
+      <p4>&nbsp;green dashed border&nbsp;</p4>
+      &nbsp;are optional. </p>
+    <p>Regarding the "Date of Birth field" Which also has a green dashed border&nbsp;
+      <p4>&nbsp;green dashed border&nbsp;</p4>
+      &nbsp;our advice is to complete this field, as it will help us tailor your personal fitness plan. </p>
+  </div>
+  <div class="main">
+    <form action="http://httpbin.org/get" method="get">
+      <fieldset>
+        <legend> </legend>
+        <h2>Join The Aqua Gym</h2>
+        <label for="title"> Title: &nbsp;</label>
+        <select id="title" autofocus>
+          <option value="dr">Dr.</option>
+          <option value="mr">Mr.</option>
+          <option value="mrs"> Mrs.</option>
+          <option value="miss" selected>Miss.</option>
+          <option value="master">Master</option>
+          <option value="ms">Ms.</option>
+          <option value="dr">Dr.</option>
+          <option value="lady">Lady</option>
+          <option value="revd">Rev'd</option>
+          <option value="sir">Sir</option>
+          <option value="dame">Dame</option>
+          <option value="lord">Lord</option>
+          <option value="professor">Professor</option>
+        </select>
+        &nbsp; &nbsp;
+        <label for="firstName" class="required-field">First Name: &nbsp;</label>
+        <input type="text" name="firstName" placeholder="Jane" autocomplete="on" required>
+        &nbsp; &nbsp;
+        <label for="lastName" class="required-field">Last Name: &nbsp;</label>
+        <input type="text" name="lastName" id="lastName"  placeholder="Doe" autocomplete="on" required>
+        &nbsp; &nbsp;
+        <label for="dateOfBirth">Date of Birth: &nbsp;</label>
+        <input type="date" id="dateOfBirth" name="DateofBirth">
+        <br>
+        <br>
+        <br>
+        <label for="address1" class="required-field">House No./Name: &nbsp;</label>
+        <input type="text" name="address1" id="address1" placeholder="15" autocomplete="on" required>
+        &nbsp; &nbsp;
+        <label for="address2" class="required-field">Street Address: &nbsp;</label>
+        <input type="text" name="address2" id="address2" placeholder="Bucket Avenue" autocomplete="on" required>
+        <br>
+        <br>
+        <br>
+        <label for="address3" class="required-field">Town or City: &nbsp;</label>
+        <input type="text" name="address3" id="address3" placeholder="Bideford" autocomplete="on" required>
+        &nbsp; &nbsp;
+        <label for="address4" class="required-field">County: &nbsp;</label>
+        <input type="text" name="address4" id="address4" placeholder="Devon" autocomplete="on" required>
+        &nbsp; &nbsp;
+        <label for="address5" class="required-field">Post Code: &nbsp;</label>
+        <input type="text" name="address5" id="address5" placeholder="EX39 3AZ" autocomplete="on" required>
+        <br>
+        <br>
+        <br>
+        <label for="landline ">Landline: &nbsp;</label>
+        <input type="tel" name="landline" id="landline" placeholder="01234 123465" pattern="[0-9]{5} [0-9]{6}" required>
+        &nbsp; &nbsp;
+        <label for="mobile">Mobile: &nbsp;</label>
+        <input type="tel" name="mobile" id="mobile" placeholder="01234567890" pattern="[0-9]{11}" required>
+        <br>
+        <br>
+        <br>
+        <label for="email" class="required-field">Enter your email: &nbsp;</label>
+        <input type="email" id="email" name="email" placeholder="youremail@email.com" required>
+        <br>
+        <br>
+        <br>
+        <label for="marketing" class="required-field">Marketing: &nbsp;</label>
+        <input type="text" name="marketing" id="marketing" placeholder="choose yes or no" list="marketing-list" required>
+        <datalist id="marketing-list">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </datalist>
+        <br>
+        <br>
+        <br>
+        <label for="checkbox" class="required-field">
+          <input type="checkbox" name="termsAndConditions" id="termsAndConditions" value="termsAndConditions" required><div class="tooltip">
+          Do you agree to the terms and conditions of joining The Aqua Gym?<span class="tooltiptext">This form is for demonstration purposes only, notice when you fill in the red input areas and click on the next one the previous input area dashed border turns green.<br><br>And once the entire form has input the outside border of the form also turns green.<br><br>When you click on the submit button you will be taken to the demonstration payment page.</span></div><br>
+          <a href="terms_and_conditions.html">Terms and Conditions</a></label>
+        <br>
+        <br>
+        <div class="button" type="reset">Reset</div>
+        <div class="button"><a href="the_aqua_gym_checkout_form.html">
+          Submit
+          </a></div>
+      </fieldset>
+    </form>
+    <div class="footer2">&copy; Billee Mason - The Aqua Gym Website Template </div>
+  </div>
+</div>
+</body>
+</html>
