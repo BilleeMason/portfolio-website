@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+ *{
+  font-family: "Roboto", sans-serif;
+}
+div.ex1 {
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+  border: 30px solid #e9169f;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.button {
+background-color: #e9169f;
+border: none;
+border-radius: 12px;
+font-family: Roboto, sans-serif;
+font-size: 30px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+
+}
+body {background-color: rgb(62, 241, 17);}
+h1 {color: #e9169f ; text-align:center}
+h2 {color:rgb(242, 0, 255); text-align: center;}
+h3 {color:orangered; text-align: center;}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.button4 {border-radius: 12px;}
+
+
+.sallyrunning {
+  width:30%;
+    bottom:0;
+    left:0px;
+    animation: sally-move 2s linear forwards;
+}
+.sallyscared {
+  width:30%;
+    bottom:0;
+    left:0px;
+    animation: sally-move 2s linear up;
+}
+
+
+ @keyframes sally-move {
+        to {
+            transform:
+                translateX(370px);
+        }
+	 
